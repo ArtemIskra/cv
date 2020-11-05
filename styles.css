@@ -1,0 +1,38 @@
+
+body, h1{
+  background-color: #E6E6FA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+h1 {
+  color:black;
+}
+
+
+hr{
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-width: 0 0 5px;
+	border-style: solid;
+	border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
+	background-position: 50%;
+	box-sizing: border-box;
+	color: orange;
+}
+
+img{
+  width: 100%;
+height: 35%;
+}
+
+ img:hover{
+   background-color: white;
+ }
+
+.aboutme{
+  color: black;
+  color: blue;
+}
