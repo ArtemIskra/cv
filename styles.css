@@ -14,29 +14,34 @@ text-align: center;
 }
 
 hr{
-margin: 10px 280px;
 border-top: 5px dotted black;
 }
 
+.header{
+margin: 10px 280px 150px 280px;
 
-
-table{
-margin-left: 200px;
-margin-right: 200px;
+}
+.tops{
+  margin: 10px 200px 50px 200px;
+}
+.skills{
+text-align: left;
+display: inline-block;
+}
+.films{
+display: inline-block;
+margin-left: 30px;
 }
 
 img{
-background-color:  #E6E6FA;
-width: 80%;
-height: 30%;
+float: left;
+margin: 10px;
 }
-
-
 
 .aboutme{
   font-size: 19px;
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 .aboutme:hover{
   color: black;
@@ -44,5 +49,5 @@ height: 30%;
 }
 
 .contact{
-padding-top: 40px;
+text-align: center;
 }
